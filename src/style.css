@@ -1,0 +1,33 @@
+body {
+  background-color: #000000;
+  color: #fffffb;
+  font-family: monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.terminal {
+  border: 1px solid #39FF14;
+  padding: 2rem;
+  max-width: 600px;
+  width: 90%;
+  height: 50vh;
+  text-align: center;
+  box-shadow: 0 0 8px #39FF14;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.textBox {
+  font-size: 4rem;
+}
+
+.rudeMsg {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  color: #FF3131;
+}
