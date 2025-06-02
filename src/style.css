@@ -31,3 +31,17 @@ body {
   margin-bottom: 2rem;
   color: #FF3131;
 }
+
+.timer {
+  font-size: 2rem;
+  color: #39FF14;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #39FF14;
+  color: #000000;
+  border: none;
+  cursor: pointer;
+}
