@@ -11,3 +11,7 @@ export function updateTextColor(element, status) {
     element.style.color = '#fffffb';
   }
 }
+
+export function tickUITimer(element, count) {
+  element.textContent = count;
+}
